@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #a7cd74;
+  color: #38b2eb;
   text-decoration: none;
 }
 
@@ -534,7 +534,7 @@ section {
   justify-content: center;
   width: 64px;
   height: 64px;
-  border: 2px solid #d6e8bf;
+  border: 2px solid #1f5297;
   border-radius: 50px;
   transition: 0.5s;
 }
@@ -545,8 +545,8 @@ section {
 }
 
 .about .icon-box:hover .icon {
-  background: #1f5297;
-  border-color: #1f5297;
+  background: #38b2eb;
+  border-color: #38b2eb;
 }
 
 .about .icon-box:hover .icon i {
@@ -748,9 +748,9 @@ section {
 --------------------------------------------------------------*/
 .projects .icon-box {
   text-align: center;
-  border: 1px solid #e5f0d5;
+  border: 1px solid #ffff;
   padding: 80px 20px;
-  transition: all ease-in-out 0.3s;
+  /* transition: all ease-in-out 0.3s; */
   background: #fff;
 }
 
@@ -760,19 +760,20 @@ section {
   height: 64px;
   background:#ecf3f8;
   border-radius: 50px;
-  border: 1px solid #d6e8bf;
+  border: 1px solid #1f5297;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 20px;
-  transition: ease-in-out 0.3s;
+  /* transition: ease-in-out 0.3s; */
 }
 
 .projects .icon-box .icon i {
-  color: #bfdb99;
+  color: #1f5297;
   font-size: 28px;
-  transition: ease-in-out 0.3s;
+  /* transition: ease-in-out 0.3s; */
 }
+
 
 .projects .icon-box h4 {
   font-weight: 700;
@@ -782,7 +783,7 @@ section {
 
 .projects .icon-box h4 a {
   color: #353535;
-  transition: ease-in-out 0.3s;
+  /* transition: ease-in-out 0.3s; */
 }
 
 .projects .icon-box p {
@@ -792,16 +793,19 @@ section {
 }
 
 .projects .icon-box:hover {
-  border-color: #fff;
+  border-color: #38b2eb;
   box-shadow: 0px 0 25px 0 rgba(0, 0, 0, 0.1);
 }
 
 .projects .icon-box:hover h4 a, .services .icon-box:hover .icon i {
-  color: #1f5297;
+  color: #38b2eb;
 }
 
 .projects .icon-box:hover .icon {
-  border-color: #1f5297;
+  border-color: #38b2eb;
+}
+.projects .icon-box:hover .icon i {
+  color: #38b2eb;
 }
 
 /*--------------------------------------------------------------
